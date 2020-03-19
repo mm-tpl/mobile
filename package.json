@@ -46,7 +46,7 @@
 		"@babel/runtime": "latest",
 		"@mmstudio/am000001": "1.0.202003191551",
 		"@mmstudio/am000005": "1.0.202003191639",
-		"@mmstudio/mobile": "1.0.202003191437",
+		"@mmstudio/mobile": "1.0.202003191828",
 		"@react-native-community/masked-view": "0.1.7",
 		"@types/jest": "latest",
 		"@types/react": "latest",

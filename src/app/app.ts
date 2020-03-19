@@ -3,29 +3,23 @@ import config from './config';
 import s from './s';
 import css from './styles';
 
-/// FEIDAO IMPCOMPONENTS BEGIN
-/// Please do not modify the code below(*/ω＼*)
+/// MM IMPCOMPONENTS BEGIN
+/// 请不要修改下面的代码哟(๑•ω•๑)
+/// MM IMPCOMPONENTS END
 
-/// FEIDAO IMPCOMPONENTS END
-
-/// FEIDAO IMPACTIONS BEGIN
-/// Please do not modify the code below(*/ω＼*)
+/// MM IMPACTIONS BEGIN
+/// 请不要修改下面的代码哟(๑•ω•๑)
 import a001 from './a001';
-
-/// FEIDAO IMPACTIONS END
-
+/// MM IMPACTIONS END
 
 (() => {
-	/// FEIDAO ACTIONS BEGIN
-	/// Please do not modify the code below(*/ω＼*)
-
+	/// MM ACTIONS BEGIN
+	/// 请不要修改下面的代码哟(๑•ω•๑)
 	const actions = { a001 };
-
-	/// FEIDAO ACTIONS END
+	/// MM ACTIONS END
 	app('$no', actions, s, {
-		/// FEIDAO COMPONENTS BEGIN
-		/// Please do not modify the code below(*/ω＼*)
-
-		/// FEIDAO COMPONENTS END
+		/// MM COMPONENTS BEGIN
+		/// 请不要修改下面的代码哟(๑•ω•๑)
+		/// MM COMPONENTS END
 	}, config, css);
 })();

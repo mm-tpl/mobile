@@ -1,4 +1,5 @@
 import { IAppConfig } from '@mmstudio/mobile';
+
 export default {
 	main_page: 'xxx',	// 主页
 	tabs: {
