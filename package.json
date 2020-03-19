@@ -1,23 +1,21 @@
 {
-	"name": "@mmstudio/base",
+	"name": "@mmstudio/prjno",
 	"version": "1.0.0",
 	"description": "$desc",
 	"scripts": {
-		"test": "tsc && ava ./tests/*.js",
-		"watch": "tsc -w & ava --watch ./tests/*.js",
+		"test": "npm run test:ts & mm-server & gulp test",
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test:ts": "tsc -w",
+		"test:android": "react-native run-android",
+		"test:ios": "react-native run-ios",
 		"clean": "del-cli ./dist/",
 		"lint": "eslint ./src/**/*.ts",
 		"compile": "tsc",
-		"build": "npm run clean && npm run lint && npm run compile",
-		"up": "git merge master"
-	},
-	"repository": {
-		"type": "https+git",
-		"url": "https://github.com/mm-core/base.git"
+		"build": "npm run clean && npm run lint && npm run compile && gulp",
+		"up": "git pull git@github.com:mm-core/base prj-tpl"
 	},
 	"main": "dist/index.js",
 	"module": "dist/index.js",
-	"types": "dist/index.d.ts",
 	"keywords": [
 		"mm",
 		"mmstudio",
@@ -29,8 +27,8 @@
 		"框架"
 	],
 	"author": {
-		"name": "$user",
-		"email": "$email@xxx.com"
+		"name": "taoqf",
+		"email": "tao_qiufeng@126.com"
 	},
 	"maintainers": [
 		{
@@ -39,15 +37,40 @@
 		}
 	],
 	"license": "MIT",
-	"dependencies": {},
+	"dependencies": {
+		"css-to-react-native-transform": "1.9.0",
+		"log4js": "6.1.2"
+	},
 	"devDependencies": {
+		"@babel/core": "latest",
+		"@babel/runtime": "latest",
+		"@mmstudio/am000001": "1.0.202003191551",
+		"@mmstudio/am000005": "1.0.202003191639",
+		"@mmstudio/mobile": "1.0.202003191437",
+		"@react-native-community/masked-view": "0.1.7",
+		"@types/jest": "latest",
+		"@types/react": "latest",
+		"@types/react-native": "latest",
+		"@types/react-test-renderer": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
-		"ava": "latest",
+		"colors": "latest",
 		"del-cli": "latest",
 		"eslint": "latest",
 		"eslint-config-prettier": "latest",
 		"eslint-plugin-import": "latest",
+		"gulp": "latest",
+		"gulp-uglify-es": "latest",
+		"internal-ip": "latest",
+		"metro-react-native-babel-preset": "latest",
+		"react": "16.9.0",
+		"react-dom": "16.13.0",
+		"react-native": "0.61.5",
+		"react-native-gesture-handler": "1.6.0",
+		"react-native-reanimated": "1.7.0",
+		"react-native-screens": "2.3.0",
+		"react-navigation": "4.3.1",
+		"react-navigation-tabs": "2.8.4",
 		"typescript": "next"
 	}
 }

@@ -2,7 +2,15 @@
 node_modules/
 tests/
 src/
+ios/
+android/
+imgs/
+logs/
+realease_ios/
+realease_android/
 tsconfig.json
+log4js
+.babelrc
 .eslintignore 
 .eslintrc.json
 .gitignore
