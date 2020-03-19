@@ -11,7 +11,7 @@
 		"clean": "del-cli ./dist/",
 		"lint": "eslint ./src/**/*.ts",
 		"compile": "tsc",
-		"build": "npm run clean && npm run lint && npm run compile && gulp",
+		"build": "npm run clean && npm run lint && npm run compile",
 		"up": "git pull git@github.com:mm-core/base prj-tpl"
 	},
 	"main": "dist/index.js",
@@ -24,7 +24,7 @@
 		"插件式",
 		"原子操作",
 		"控件",
-		"框架"
+		"项目"
 	],
 	"author": {
 		"name": "taoqf",

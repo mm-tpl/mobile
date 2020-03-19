@@ -115,13 +115,7 @@
 		"prefer-rest-params": "error",
 		"prefer-spread": "error",
 		"prefer-template": "error",
-		"quotes": [
-			"error",
-			"single",
-			{
-				"avoidEscape": true
-			}
-		],
+		"quotes": "off",
 		// Turn off until fix for: https://github.com/eslint/eslint/issues/11899
 		"require-atomic-updates": "off",
 		"semi": [
@@ -180,10 +174,10 @@
 						"sibling",
 						"parent"
 					]
-				],
-				"newlines-between": "never"
+				]
 			}
 		],
+		"@typescript-eslint/require-await": "off",
 		"@typescript-eslint/consistent-type-assertions": "off",
 		"@typescript-eslint/explicit-function-return-type": "off",
 		"@typescript-eslint/explicit-member-accessibility": "error",
