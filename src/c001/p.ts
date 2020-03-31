@@ -1,14 +1,11 @@
-import { app } from '@mmstudio/mobile';
+import { container } from '@mmstudio/mobile';
 import config from './config';
 import s from './s';
-import css from './css';
 
 /// MM IMPCOMPONENTS BEGIN
 /// 请不要修改下面的代码哟(๑•ω•๑)
-import c001 from '../c001/p';
-import pg001 from '../pg001/p';
-import pg005 from '../pg005/p';
-import pg006 from '../pg006/p';
+import c002 from './c002/p';
+import pg002 from './pg002/p';
 /// MM IMPCOMPONENTS END
 
 /// MM IMPACTIONS BEGIN
@@ -16,15 +13,15 @@ import pg006 from '../pg006/p';
 import a001 from './a001';
 /// MM IMPACTIONS END
 
-export default function App() {
+export default function Container() {
 	/// MM ACTIONS BEGIN
 	/// 请不要修改下面的代码哟(๑•ω•๑)
 	const actions = { a001 };
 	/// MM ACTIONS END
-	return app('stack', actions, s, config, css,
+	return container('bottom-tab', 'c001', actions, s, config,
 		/// MM COMPONENTS BEGIN
-/// 请不要修改下面的代码哟(๑•ω•๑)
-c001(), pg001(), pg005(), pg006()
+		/// 请不要修改下面的代码哟(๑•ω•๑)
+		c002(), pg002()
 		/// MM COMPONENTS END
 	);
 }

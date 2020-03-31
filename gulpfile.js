@@ -16,7 +16,7 @@ gulp.task('test', async () => {
 					if (o.length === 0) {
 						console.error(colors.red('Could not get file content: dist/app/a001.js'));
 					} else {
-						const n = o.replace(/am000002_1\.default\(mm, .*\);/, `am000002_1.default(fd, '${server}');`);
+						const n = o.replace(/am000002_1\.default\(.*\);/, `am000002_1.default('${server}');`);
 						if (n !== o) {
 							fs.writeFileSync(path, n);
 						}
