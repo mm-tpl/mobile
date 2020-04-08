@@ -35,7 +35,7 @@
 		"@typescript-eslint"
 	],
 	"rules": {
-		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/rules-of-hooks": "warn",
 		"react-hooks/exhaustive-deps": "warn",
 		"arrow-parens": [
 			"off"

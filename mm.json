@@ -1,5 +1,5 @@
 {
-	"port": 8889,
+	"port": 8890,
 	"timeout": 500000,
 	"wx1": {
 		"getopenid": true,
