@@ -3,7 +3,6 @@
 	"version": "1.0.0",
 	"description": "$desc",
 	"scripts": {
-		"env": "export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64 && export ANDROID_HOME=/home/taoqf/Android/Sdk",
 		"test": "npm run test:ts & mm-server & gulp test",
 		"start": "react-native start",
 		"test:ts": "tsc -w",
