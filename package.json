@@ -17,6 +17,7 @@
 	},
 	"main": "dist/index.js",
 	"module": "dist/index.js",
+	"homepage": "https://mm-works.github.io",
 	"keywords": [
 		"mm",
 		"mmstudio",
