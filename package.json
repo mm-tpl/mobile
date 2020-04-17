@@ -43,7 +43,6 @@
 		"@mmstudio/config": "1.0.202004161715",
 		"@mmstudio/server": "1.0.202004171023",
 		"@mmstudio/schedule": "1.0.202004171021",
-		"@types/minio": "7.0.5",
 		"log4js": "6.2.0"
 	},
 	"devDependencies": {
@@ -52,6 +51,7 @@
 		"@mmstudio/am000001": "1.1.202004170845",
 		"@mmstudio/am000005": "1.0.202004170853",
 		"@mmstudio/am000012": "1.1.202004170859",
+		"@mmstudio/global": "1.0.202004161717",
 		"@mmstudio/mobile": "1.1.202004170959",
 		"@react-native-community/masked-view": "^0.1.9",
 		"@react-native-community/netinfo": "^5.7.1",
