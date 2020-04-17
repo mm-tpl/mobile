@@ -42,6 +42,8 @@
 	"dependencies": {
 		"@mmstudio/config": "1.0.202004161715",
 		"@mmstudio/server": "1.0.202004171023",
+		"@mmstudio/schedule": "1.0.202004171021",
+		"@types/minio": "7.0.5",
 		"log4js": "6.2.0"
 	},
 	"devDependencies": {
