@@ -40,19 +40,19 @@
 	],
 	"license": "MIT",
 	"dependencies": {
-		"@mmstudio/config": "1.0.202003191017",
-		"@mmstudio/server": "1.0.202003191044",
-		"log4js": "6.1.2"
+		"@mmstudio/config": "1.0.202004161715",
+		"@mmstudio/server": "1.0.202004171023",
+		"log4js": "6.2.0"
 	},
 	"devDependencies": {
 		"@babel/core": "latest",
 		"@babel/runtime": "latest",
-		"@mmstudio/am000001": "1.1.202003261624",
-		"@mmstudio/am000005": "1.0.202003261656",
-		"@mmstudio/am000012": "1.1.202003311613",
-		"@mmstudio/mobile": "1.1.202004100818",
-		"@react-native-community/masked-view": "^0.1.7",
-		"@react-native-community/netinfo": "^5.7.0",
+		"@mmstudio/am000001": "1.1.202004170845",
+		"@mmstudio/am000005": "1.0.202004170853",
+		"@mmstudio/am000012": "1.1.202004170859",
+		"@mmstudio/mobile": "1.1.202004170959",
+		"@react-native-community/masked-view": "^0.1.9",
+		"@react-native-community/netinfo": "^5.7.1",
 		"@react-navigation/bottom-tabs": "^5.2.6",
 		"@react-navigation/drawer": "^5.4.1",
 		"@react-navigation/material-bottom-tabs": "^5.1.8",
@@ -85,10 +85,10 @@
 		"react-native-paper": "^3.8.0",
 		"react-native-reanimated": "^1.8.0",
 		"react-native-safe-area-context": "^0.7.3",
-		"react-native-screens": "^2.4.0",
+		"react-native-screens": "^2.5.0",
 		"react-native-tab-view": "^2.14.0",
 		"react-native-vector-icons": "^6.6.0",
-		"react-native-windows": "^0.61.3",
+		"react-native-windows": "^0.61.5",
 		"typescript": "next"
 	}
 }
