@@ -14,7 +14,7 @@
 		"compile": "tsc",
 		"build": "npm run clean && npm run lint && npm run compile",
 		"up": "git pull git@github.com:mm-core/base prj-tpl",
-		"sync": "git pull git@github.com:mm-tpl/mobile.git master"
+		"sync": "git pull git@github.com:mm-tpl/mobile.git main"
 	},
 	"main": "dist/index.js",
 	"module": "dist/index.js",
